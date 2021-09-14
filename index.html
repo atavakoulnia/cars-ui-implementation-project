@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="images/AwesomeCars.svg">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="series.html">Tv Series</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id="container">
+    <div class="left">
+        <h2>Welcome to Awesome Cars!</h2>
+        <p>This site is dedicated to honoring those machines that help us move from one place to another. Especially those awesome cars that amaze us every day with their characteristics and shapes.</p>
+    </div>
+    <div class="right graybox">
+        This site covers different stuff related with cars, including movies, series and games based on cars.
+        <br><br>
+        I hope you enjoy this site as much as I enjoyed to build it.
+        <br>
+        <h3>List of car brands</h3>
+        <ul>
+            <li>Abarth</li>
+            <li>Acura</li>
+            <li>Alfa Romeo</li>
+            <li>Aston Martin</li>
+            <li>Audi</li>
+            <li>Bentley</li>
+            <li>BMW</li>
+            <li>Buick</li>
+            <li>Cadillac</li>
+            <li>Chevrolet</li>
+            <li>Chrysler</li>
+            <li>Citroen</li>
+            <li>Dacia</li>
+            <li>Dodge</li>
+            <li>Ferrari</li>
+            <li>Fiat</li>
+            <li>Ford</li>
+            <li>GMC</li>
+            <li>Honda</li>
+            <li>Hummer</li>
+            <li>Hyundai</li>
+            <li>Infiniti</li>
+            <li>Isuzu</li>
+            <li>Jaguar</li>
+            <li>Jeep</li>
+            <li>Kia</li>
+            <li>Lamborghini</li>
+            <li>Lancia</li>
+            <li>Land Rover</li>
+            <li>Lexus</li>
+            <li>Lincoln</li>
+            <li>Lotus</li>
+            <li>Maserati</li>
+            <li>Mazda</li>
+            <li>Mercedes-Benz</li>
+            <li>Mercury</li>
+            <li>Mini</li>
+            <li>Mitsubishi</li>
+            <li>Nissan</li>
+            <li>Opel</li>
+            <li>Peugeot</li>
+            <li>Pontiac</li>
+            <li>Porsche</li>
+            <li>Ram</li>
+            <li>Renault</li>
+            <li>Saab</li>
+            <li>Saturn</li>
+            <li>Scion</li>
+            <li>Seat</li>
+            <li>Skoda</li>
+            <li>Smart</li>
+            <li>SsangYong</li>
+            <li>Subaru</li>
+            <li>Suzuki</li>
+            <li>Tesla</li>
+            <li>Toyota</li>
+            <li>Volkswagen</li>
+            <li>Volvo</li>
+            <li>Wiesmann</li>
+        </ul>
+    </div>
+</div>
+<div style="clear: both"></div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="images/cars/audi_ttrs_fronttrack.jpg" style="width:100%">
+        <div class="text">Audi TTRS
+            <cite><a href="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/audi_ttrs_fronttrack.jpg">Cite</a></cite>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="images/cars/lamborghini_aventador_roadster_white.jpeg" style="width:100%">
+        <div class="text">Lamborghini Aventador Roadster White
+            <cite><a href="https://www.rentlamborghini.ae/files/images/ecommerce/la-aventador-roadster-white.jpeg">Cite</a></cite>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="images/cars/lexus_lc_frontcorner.jpg" style="width:100%">
+        <div class="text">Lexus LC
+            <cite><a href="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/lexus_lc_frontcorner.jpg">Cite</a></cite>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/cars/morgan-plus-six-2019-rt-cornering.jpg" style="width:100%">
+        <div class="text">Morgan Plus Six
+            <cite><a href="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/27-morgan-plus-six-2019-rt-cornering-front_0.jpg">Cite</a></cite>
+        </div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<div id="fixedbutton">
+    <a href="#" onclick="openForm()">Subscribe</a>
+</div>
+
+<div id="subscribeForm">
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" class="form-container" method="post">
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        <button type="submit" class="btn">Subscribe</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</div>
+
+<script src="apps.js"></script>
+</body>
+</html>
